@@ -26,7 +26,7 @@ require_once("connection.php");
 
             $sql = "INSERT INTO klientai (vardas, pavarde, teises_id) VALUES ('$vardas','$pavarde',$teises_id)";
 
-            if(mysqli_query($prisijungimas, $sql)) {
+              if(mysqli_query($prisijungimas, $sql)) {
                 echo "Irasas yra pridetas";
             } else {
                 echo "Kazkas ivyko negerai";
